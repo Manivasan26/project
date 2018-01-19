@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+   <head>
+      <title>Add Movie</title>
+      <meta name="description" content="My Add Movie">
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="reset.css"/>
+      <link rel="stylesheet" type="text/css" href="movie.css"/>
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+   </head>
+   <body>
+      <header>
+         <img class="logo" src="./images/projector-logo.png" alt="logo">
+         <nav class="ss">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Add Movie</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class="clearfix"></div>
+      <form class="add">
+         <h2>Add a Movie</h2>
+         <ul>
+            <li>
+               <lable for="moviename">Movie name</lable>
+               <input type="text" name="moviename"/>
+            </li>
+
+            <li>
+               <lable for="Realeseyear">Realese Year</lable>
+               <input type="text" name="Realeseyear"/>
+            </li>
+
+            <li>
+              <div class="divide_language">
+               <lable for="language">language</lable>
+               <select name="language" id="language">
+                  <option value="tamil">Tamil</option>
+                  <option value="telugu">Telugu</option>
+                  <option value="hindi">Hindi</option>
+                  <option value="malayalam">Malayalam</option>
+               </select>
+            </div><div class="divide">
+               <lable for="rating">Rating</lable>
+               <select name="rating" id="rating">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+               </select>
+             </div>
+            </li>
+
+            <li>
+               <lable for="thumbnailurl">Thumbnail url</lable>
+               <input type="url" name="thumbnailurl"/>
+            </li>
+
+         <li>
+            <lable for="plot">Plot</lable>
+            <textarea rows="6" cols="50"></textarea>
+          </li>
+               <li>
+                  <lable for="posterurl">Poster url</lable>
+                  <input type="url" name="posterurl"/>
+               </li>
+
+               <li>
+                  <lable for="cast">cast</lable>
+                  <textarea rows="4" cols="25"></textarea>
+               </li>
+
+                  <button class="buttonClass" name="save" value="save"> Save</button>
+
+
+          </ul>
+      </form>
+      <footer>
+      <img class="logo_footer" src="./images/projector-logo.png" alt="logo">
+      <nav>
+      <ul>
+      <li> <img class="icon" src="./images/facebook.png"><a href="www.facebook.com"></a></li>
+      <li><a href="#" class="icon">twitter</a></li>
+      <li><a href="#" class="icon">instagram</a></li>
+      </ul>
+      </nav>
+      </footer>
+   </body>
+</html>

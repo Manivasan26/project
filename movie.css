@@ -1,0 +1,84 @@
+.logo{
+  width:190px;
+  float:left;
+}
+.ss{
+  float:right;
+}
+.logo_footer{
+  width:190px;
+  float:right;
+}
+.clearfix{
+  clear:both;
+}
+body{
+  font-family: 'Lato';
+  background-color:#442D4B;
+  color:white;
+}
+header{
+
+padding: 50px;
+  }
+  footer{
+    background-color: black;
+  padding: 50px;
+  }
+header ul li a,footer ul li a{
+  text-decoration: none;
+  color:#ffcb59;
+}
+header ul li,footer ul li{
+  display: inline-block;
+  padding:10px 15px;
+}
+.add{
+  width:500px;
+  margin:0 auto;
+}
+.add h2{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.add lable,.add input{
+  display: block;
+}
+.add input,.add textarea,.add select{
+  width: 100%;
+  background: #442D4B;
+  border: 1px solid white;
+  margin: 7px 0 15px;
+  color: white;
+  padding: 0 5px;
+  font-size: 19px;
+  font-family: inherit;
+}
+.add input{
+  height: 40px;
+}
+.icon{
+  width: 20px;
+}
+
+.buttonClass{
+  width:30%;
+  height:10px;
+  background:orange;
+  padding:20px;
+}
+.divide
+{
+  display: inline-block;
+  width:50%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.divide_language
+{
+  padding-left: 0;
+  display: inline-block;
+  width:50%;
+  box-sizing: border-box;
+}
